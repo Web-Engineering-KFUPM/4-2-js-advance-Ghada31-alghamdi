@@ -66,11 +66,15 @@ console.log(str.length);
 // ===================================
 /*
 Task:
-1) Create a Date for the current moment (new Date()).
+1) create a Date for the current moment (new Date()).
 2) Find and display the current day of month, month (0–11), and year.
 //    (Hint: getDate(), getMonth(), getFullYear() )
 */
 
+const date=new Date()
+console.log(date.getDate());
+console.log(date.getMonth()+1);
+console.log(date.getFullYear());
 // ============================================================
 // TODO-5: ARRAY + SPREAD — find MIN and MAX from 10 numbers
 // ============================================================
