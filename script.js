@@ -84,7 +84,11 @@ Task:
 2) Use spread syntax with Math.min(...) and Math.max(...) to find extremes.
 3) Display both values.
 */
-
+const num_array=[3,5,60,31,40,8,0,93,133,34];
+const min=Math.min(...num_array);
+const max=Math.max(...num_array)
+console.log(min);
+console.log(max);
 // ===================================================================
 // TODO-6: EXCEPTIONS — try/catch/finally with EMPTY ARRAY edge case
 // ===================================================================
