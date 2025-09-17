@@ -99,7 +99,21 @@ Task:
 3) Handle the error using try { ... } catch (e) { ... } finally { ... } and log messages
    in each block so you can see the flow of control.
 */
-
+function max_number(arr){
+  if (!Array.isArray(arr) || arr.length === 0) {
+    throw new Error("Array must be non-empty.");
+  }
+  return Math.max(...arr);
+}
+try{
+   const y=max_number([]);
+}
+catch(e){
+   console.log("The arraye can not be empty")
+}
+finally{
+   console.log("we are in the finall bloke")
+}
 // ===================================================================================
 // TODO-7: REGEX + forEach — find words containing 'ab' and log matches from the list
 // ===================================================================================
